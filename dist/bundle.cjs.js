@@ -5,7 +5,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var hexRgb = _interopDefault(require('hex-rgb'));
 
 const newColor = hex => {
-  return newColorArr = hexRgb(hex, {
+  return hexRgb(hex, {
     format: 'array'
   }).map(function (rgb, index) {
     return index <= 2 ? rgb / 255 : rgb;

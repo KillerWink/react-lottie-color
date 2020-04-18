@@ -7,7 +7,7 @@
     hexRgb = hexRgb && Object.prototype.hasOwnProperty.call(hexRgb, 'default') ? hexRgb['default'] : hexRgb;
 
     const newColor = hex => {
-      return newColorArr = hexRgb(hex, {
+      return hexRgb(hex, {
         format: 'array'
       }).map(function (rgb, index) {
         return index <= 2 ? rgb / 255 : rgb;
