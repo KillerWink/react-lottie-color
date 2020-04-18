@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+node_modules
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/react-lottie-color.iml
+.idea/workspace.xml
+package.json
